@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+   
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+.shape{
+    position: absolute;
+    right: 0;
+    
+}
+
+.header{
+    background: #0a2640;
+}
+
+.navbar{
+        
+    padding: 33px 0;
+}
+.navbar ul li a{
+    margin-left: 30px;
+    color: white;
+}
+.navbar .btn{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* HERO SECTION BEGIN */
+
+.hero-section{
+    padding: 60px 0;
+}
+.hero-section .hero-desc{
+    z-index: 1;
+}
+.hero-section h1{
+    color: white;
+    font-size: 44px;
+    line-height: 1.4;
+}
+.hero-section p{
+    color: white;
+    font-size: 14px;
+}
+.hero-section .btn-1{
+    background: #54ad7f;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.hero-section .btn-2{
+    transition: 0.3s all;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.hero-section .btn-2:hover{
+    background: white;
+    color: black;
+}
+.hero-section img{
+    z-index: 1;
+}
+
+/* HERO SECTION BEGIN */
+
+/* --HAND SHAKE BEgin --   */
+.handshake{
+    margin: 90px 0;
+}
+
+.shakecontent{
+    margin: 10px ;
+    text-align: center;
+}
+
+.shakecontent h1{
+    font-size: 48px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0em;
+}
+
+.shakecontent h6{
+ color: #777777;
+}
+
+ .handshake .card-title{
+
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+ .handshake .card-text{
+ color: #777777;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+/* <!--HAND SHAKE END--!> */
+
+
+/* --CUSTOMER BEGIN-- */
+
+.customer{
+    margin: 90px 0;
+}
+.content-men h1{
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.content-men ul li{
+list-style: none;
+margin: 20px 0;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+padding: 0;
+
+}
+
+.fa-solid{
+    margin: 0;
+    padding: 0;
+}
+.content-men ul li svg{
+    margin: 0;
+    padding: 0  ;
+    color: #0A2640;
+    background-color: #f1f1f1;
+}
+
+
+
+.bt-2 button{
+    background-color: #0A2640;
+    color: #f1f1f1;
+    text-align: center;  
+    border-radius: 56px; 
+    padding: 10px 50px;
+   
+    border: 2px solid #f1f1f1;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.bt-2 button:hover{
+    color: #0A2640;
+    background-color: white;
+    border: 2px solid #0A2640;
+}
+
+
+
+
+.content-women h1{
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.content-women ul li{
+    border: 2px solid #f1f1f1;
+border-radius: 4px;
+background-color: #fff;
+list-style: none;
+margin: 20px 0;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+padding: 0;
+}
+.content-women ul li svg{
+    color: #0A2640;
+    background-color: #f1f1f1;
+}
+
+.content-women ul li:hover{
+    background-color: #0A2640;
+    color: white;
+}
+
+
+
+/* --CUSTOMER END-- */
+
+
+/* --Enterprise Begin-- */
+.enterprise {
+   
+    background-color: #0A2640;
+    height: auto;
+    padding: 50px 0;
+
+}
+
+.content-enter h1{
+  color: #f1f1f1;
+font-size: 3rem;
+font-weight: 400;
+/* line-height: 72px; */
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.arrow i{
+    
+    margin-left: 10px;
+    text-align: right;
+    font-size: 40px;
+    color: white;
+    /* background-color: black; */
+}
+
+.arrow i:hover{
+    background-color: #0A2640;
+    color: white;
+}
+
+.enterprise .card-img-top {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    object-fit: contain;
+    object-position: bottom;
+    
+}
+
+
+
+.card-content{
+    margin: 10px 0;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+/* --Enterprise END-- */
+
+
+
+/* <!-- --Connect begin-- --> */
+.connect {
+    margin-top: 100px;
+}
+
+
+.connect-content h4{
+font-size: 32px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+    
+}
+
+
+
+/* <!-- --Connect End-- --> */
+
+
+/* --Product begin-- */
+
+.product{
+    margin: 90px 0;
+}
+
+.product-content h1{
+padding:0 70px;
+font-size: 42px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.product-content h6{
+color: #777777;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.product-card .card-img-top img{
+    object-fit: cover;
+    object-position: center;
+    margin-left: 15px;
+}
+
+
+.bt-3 button{
+    background-color: white;
+    color: #0A2640;
+    text-align: center;  
+    border-radius: 56px; 
+    padding: 10px 50px;
+   
+    border: 2px solid #0A2640;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
+.bt-3 button:hover{
+    color: #f1f1f1;
+    background-color: #0A2640;
+    border: 2px solid #f1f1f1;
+}
+
+/* --Product end-- */
+
+
+/* <!-- --Template Begin-- --> */
+
+.email{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.background1{
+    background-color: #0a2640;
+   padding: 40px 0;
+    border-radius: 10px;
+}
+.email-content h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    
+    
+}
+
+
+.bt-2 button{ 
+    text-align: center;  
+    color: #0A2640;
+    background-color: #69E6A6;
+    border: 2px solid #69E6A6;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+width: 190px;
+border-radius: 56px;
+padding: 12px 36px 12px 36px;
+
+    } 
+   .email .bt-2 button:hover{
+        border: none;
+        background-color: #f1f1f1;
+        
+        color: #0A2640;
+    }
+    
+    
+ .email1 input{
+    height: 50px;
+width: 300px;
+padding: 20px;
+/* left: 298px;
+top: 261px; */
+border-radius: 24px;
+
+ }   
+
+ .shape1{
+    position: absolute;
+    right: 5rem;
+    
+    
+}
+
+.email .email-content{
+    z-index: 1;
+}
+
+.email .z-{
+    z-index: -1;
+}
+.email .email1{
+    z-index: 1;
+}
+
+
+/* <!-- --Template END-- --> */
+
+
+
+/* <!-- --Footer Begin-- --> */
+.foot{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+
+
+.text-reset {
+    text-decoration: none;
+color: #777777;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.boldo h6{
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 43.25px;
+line-height: 34px;
+/* or 78% */
+margin-left: 5px;
+display: flex;
+align-items: center;
+
+/* Dark Blue */
+
+color: #0A2640;
+}
+
+.boldo p{
+color: #777777;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.text-uppercase{
+    color: #0A2640;
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+   
+}
+
+/* <!-- --Footer End-- --> */
